@@ -63,7 +63,7 @@
     margin-bottom: 2rem;
     border-radius: 3rem;
     /* background-color: var(--first-brand-color); */
-    border: .1rem solid var(--main-bg-color);
+    border: .1rem solid var(--main-text-color);
 }
 .prod__btn {
     width: 6rem;
@@ -72,14 +72,14 @@
 }
 .prod__btn-less {
     border-radius: 3rem 0 0 3rem;
-    border-right: .1rem solid var(--main-bg-color);
+    border-right: .1rem solid var(--main-text-color);
 }
 .prod__btn-more {
     border-radius: 0 3rem 3rem 0;
-    border-left: .1rem solid var(--main-bg-color);
+    border-left: .1rem solid var(--main-text-color);
 }
 .prod__btn svg {
-    fill: var(--main-bg-color);
+    fill: var(--main-text-color);
 }
 .prod__amount-span {
     font-size: 3rem;
