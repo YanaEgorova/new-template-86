@@ -95,12 +95,12 @@
     margin-bottom: 2rem;
 }
 .prod__size {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
  }
  .prod__select {
      display: block; 
-     font-size: 2rem;
+     font-size: 1.8rem;
      width: 15rem;
      outline: none;
  }

@@ -1,5 +1,5 @@
 const WEBSITE_NAME = 'website name';
-const WEBSITE_URL = 'website url';
+const WEBSITE_URL = 'google.com';
 const WEBSITE_CORP = 'website corp';
 const WEBSITE_PHONE = 'website phone';
 const WEBSITE_EMAIL = 'website email';
@@ -73,7 +73,7 @@ function setInformation(array, info) {
 
 function setWebsiteHref(array, info) {
     array.forEach(item => {
-       item.hasAttribute('href') && item.setAttribute('href', info);
+        item.hasAttribute('href') && item.setAttribute('href', `http://${info}`);
     });
 }
 
